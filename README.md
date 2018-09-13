@@ -1,4 +1,5 @@
 # Apreendendo DOCKER com Node
+[![CircleCI](https://circleci.com/gh/alexandrejuk/docker-studies.svg?style=svg)](https://circleci.com/gh/alexandrejuk/docker-studies)
 
 Este repositório é apenas de estudo para o uso pessoal, e por isso não tem aspecto técnico.
 
@@ -9,12 +10,12 @@ Este repositório é apenas de estudo para o uso pessoal, e por isso não tem as
 
   |-- backend
       |-- __tests__
-          |-- unit
-              |-- unit.test.js
           |-- e2e
               |-- e2e.test.js
-      |-- app.js
-      |-- db.js
+      |-- src
+          |-- app.js
+      |-- bin
+          |-- www
       |-- Dockerfile
 ```
 
